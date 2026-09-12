@@ -1,0 +1,916 @@
+[
+  {
+    "rule_id": "REV-001",
+    "rule_name": "民俗調理／推拿整復師資與技檢認列",
+    "category": "B",
+    "description": "民俗調理／推拿整復師資與技檢認列",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "unknown"
+    ],
+    "required_case_fields": [
+      "instructors"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-49cd242c2787d66220ebb42b3d298b9bf5e3e9c6ec4ecfd158dc2b0b174663ef",
+        "sha256": "49cd242c2787d66220ebb42b3d298b9bf5e3e9c6ec4ecfd158dc2b0b174663ef",
+        "file_name": "116年度上半年產業人才投資方案各職類課程審查標準作業原則1150317.pdf",
+        "section_id": "POL-49cd242c2787d66220ebb42b3d298b9bf5e3e9c6ec4ecfd158dc2b0b174663ef:p1:s7",
+        "page": 1,
+        "text": "      【05-02】     民俗調理人員有目的事業主管機關，且涉及技能檢定時數認列，考量訓練成效及品質，如「課程進度內容」欲認列技能檢定時數，「授\n      推拿整復        課師資條件」欄應符合衛福部教育訓練制度講師資格規定，且須勾選「輔導考照」。\n\n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\116年度上半年產業人才投資方案各職類課程審查標準作業原則1150317.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\49cd242c2787d66220ebb42b3d298b9bf5e3e9c6ec4ecfd158dc2b0b174663ef\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-49cd242c2787d66220ebb42b3d298b9bf5e3e9c6ec4ecfd158dc2b0b174663ef:p1:s7"
+    ],
+    "source_pages": [
+      1
+    ],
+    "source_text": "      【05-02】     民俗調理人員有目的事業主管機關，且涉及技能檢定時數認列，考量訓練成效及品質，如「課程進度內容」欲認列技能檢定時數，「授\n      推拿整復        課師資條件」欄應符合衛福部教育訓練制度講師資格規定，且須勾選「輔導考照」。\n\n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "僅來源表格【05-02】條件候選，不適用所有職類；需目的事業主管機關師資資格與考照資料人工核對。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": null,
+    "data_sufficiency": "僅來源表格【05-02】條件候選，不適用所有職類；需目的事業主管機關師資資格與考照資料人工核對。"
+  },
+  {
+    "rule_id": "REV-002",
+    "rule_name": "師資佐證與課程關聯",
+    "category": "B",
+    "description": "師資佐證與課程關聯",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "both"
+    ],
+    "required_case_fields": [
+      "instructors"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-85949fa4738ec93ac86b46be0888afc4bf916e0eea70a04cc0fb3a02d47eca09",
+        "sha256": "85949fa4738ec93ac86b46be0888afc4bf916e0eea70a04cc0fb3a02d47eca09",
+        "file_name": "116年度上半年產業人才投資方案訓練計畫職類審查標準作業程序1150902.pdf",
+        "section_id": "POL-85949fa4738ec93ac86b46be0888afc4bf916e0eea70a04cc0fb3a02d47eca09:p10:s84",
+        "page": 10,
+        "text": "(6)  職能級別：應依課程級別之認定，據以規劃課程 \n內容及成效評估，並與訓練目標具一致性。課程 \n對應不同之職能級別，參訓學員應有對應之甄選 \n錄訓規劃，或於訓練成效規劃相對之考核機制。 \n建議提請委 \n員審查。 \n14.  訓練師資/助教 (1)  學分班依教育部規定辦理。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\116年度上半年產業人才投資方案訓練計畫職類審查標準作業程序1150902.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\85949fa4738ec93ac86b46be0888afc4bf916e0eea70a04cc0fb3a02d47eca09\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-85949fa4738ec93ac86b46be0888afc4bf916e0eea70a04cc0fb3a02d47eca09:p10:s84"
+    ],
+    "source_pages": [
+      10
+    ],
+    "source_text": "(6)  職能級別：應依課程級別之認定，據以規劃課程 \n內容及成效評估，並與訓練目標具一致性。課程 \n對應不同之職能級別，參訓學員應有對應之甄選 \n錄訓規劃，或於訓練成效規劃相對之考核機制。 \n建議提請委 \n員審查。 \n14.  訓練師資/助教 (1)  學分班依教育部規定辦理。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "須原文脈絡、職類適用範圍與附件人工判讀；師資目前空白。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": null,
+    "data_sufficiency": "須原文脈絡、職類適用範圍與附件人工判讀；師資目前空白。"
+  },
+  {
+    "rule_id": "REV-003",
+    "rule_name": "核定補助人數與例外",
+    "category": "C",
+    "description": "核定補助人數與例外",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "self_learning"
+    ],
+    "required_case_fields": [
+      "course.enrollment"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd",
+        "sha256": "c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd",
+        "file_name": "提升勞工自主學習計畫.pdf",
+        "section_id": "POL-c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd:p4:s27",
+        "page": 4,
+        "text": "十三、每班次核定補助人數上限為四十人，各班次非本計畫補助人數至 \n多不得超過原核定班次人數百分之二十，每班次補助人數依本計 \n畫核定補助人數為限。但配合本署重要職業訓練政策並經分署認 \n定者，不在此限。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\提升勞工自主學習計畫.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd:p4:s27"
+    ],
+    "source_pages": [
+      4
+    ],
+    "source_text": "十三、每班次核定補助人數上限為四十人，各班次非本計畫補助人數至 \n多不得超過原核定班次人數百分之二十，每班次補助人數依本計 \n畫核定補助人數為限。但配合本署重要職業訓練政策並經分署認 \n定者，不在此限。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "計畫訓練人數不是核定補助人數，缺核定資料與例外附件。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": "四十人；百分之二十（核定資料及專案例外）",
+    "data_sufficiency": "計畫訓練人數不是核定補助人數，缺核定資料與例外附件。"
+  },
+  {
+    "rule_id": "REV-004",
+    "rule_name": "班次時數與開課期間",
+    "category": "B",
+    "description": "班次時數與開課期間",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "self_learning"
+    ],
+    "required_case_fields": [
+      "course.declared_hours",
+      "course.start_date",
+      "course.end_date"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd",
+        "sha256": "c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd",
+        "file_name": "提升勞工自主學習計畫.pdf",
+        "section_id": "POL-c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd:p4:s28",
+        "page": 4,
+        "text": "十四、每班次訓練時數應達十六小時以上，最高以不超過一百四十四小 \n時為原則，且開課期間不得超過四個月。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\提升勞工自主學習計畫.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd:p4:s28"
+    ],
+    "source_pages": [
+      4
+    ],
+    "source_text": "十四、每班次訓練時數應達十六小時以上，最高以不超過一百四十四小 \n時為原則，且開課期間不得超過四個月。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "原則、學分班及適用前提須人工判讀，不能任意以天數代替月份。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": "十六至一百四十四小時；四個月（原文前提與例外保留）",
+    "data_sufficiency": "原則、學分班及適用前提須人工判讀，不能任意以天數代替月份。"
+  },
+  {
+    "rule_id": "REV-005",
+    "rule_name": "年度期別與開訓日期",
+    "category": "B",
+    "description": "年度期別與開訓日期",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "self_learning"
+    ],
+    "required_case_fields": [
+      "course.start_date",
+      "plan"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd",
+        "sha256": "c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd",
+        "file_name": "提升勞工自主學習計畫.pdf",
+        "section_id": "POL-c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd:p4:s30",
+        "page": 4,
+        "text": "十六、訓練課程辦理期間分為上、下半年度，上半年度之開訓日期自一 \n月一日起至六月三十日，下半年度自七月一日起至十二月三十一 \n日為原則。但配合本署重要職業訓練政策開辦之訓練課程，或配 \n合業務需要，本署得另公告訓練課程辦理期間。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\提升勞工自主學習計畫.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd:p4:s30"
+    ],
+    "source_pages": [
+      4
+    ],
+    "source_text": "十六、訓練課程辦理期間分為上、下半年度，上半年度之開訓日期自一 \n月一日起至六月三十日，下半年度自七月一日起至十二月三十一 \n日為原則。但配合本署重要職業訓練政策開辦之訓練課程，或配 \n合業務需要，本署得另公告訓練課程辦理期間。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "有另行公告例外，版本與公告需人工確認。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": null,
+    "data_sufficiency": "有另行公告例外，版本與公告需人工確認。"
+  },
+  {
+    "rule_id": "REV-006",
+    "rule_name": "訓練地點與服務區域",
+    "category": "C",
+    "description": "訓練地點與服務區域",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "self_learning"
+    ],
+    "required_case_fields": [
+      "facilities"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd",
+        "sha256": "c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd",
+        "file_name": "提升勞工自主學習計畫.pdf",
+        "section_id": "POL-c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd:p4:s31",
+        "page": 4,
+        "text": "十七、訓練班次地點以訓練單位立案服務區域為優先，且不得跨越訓練 \n單位立案服務區域之分署服務轄區。但以全國為組織區域籌組之 \n工會聯合組織於其服務區域內辦理之訓練班次，不在此限。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\提升勞工自主學習計畫.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-c6b02e87d50d7a2c9c81215fe562dcbb07ef51237d3ad9062e1fc17ac0e00acd:p4:s31"
+    ],
+    "source_pages": [
+      4
+    ],
+    "source_text": "十七、訓練班次地點以訓練單位立案服務區域為優先，且不得跨越訓練 \n單位立案服務區域之分署服務轄區。但以全國為組織區域籌組之 \n工會聯合組織於其服務區域內辦理之訓練班次，不在此限。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "缺核定服務轄區、立案及例外附件。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": null,
+    "data_sufficiency": "缺核定服務轄區、立案及例外附件。"
+  },
+  {
+    "rule_id": "REV-007",
+    "rule_name": "單一人時成本公式一致性",
+    "category": "A",
+    "description": "單一人時成本公式一致性",
+    "rule_type": "arithmetic",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "self_learning"
+    ],
+    "required_case_fields": [
+      "budget.fixed_total",
+      "budget.hourly_cost",
+      "course.enrollment",
+      "course.declared_hours"
+    ],
+    "evaluation_method": "hourly_formula",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e",
+        "sha256": "1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e",
+        "file_name": "提升勞工自主學習計畫作業手冊.pdf",
+        "section_id": "POL-1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e:p26:s203",
+        "page": 26,
+        "text": " 23 \n【28-01】基礎精密材料類課程 \n【28-02】進階精密材料類實務課程 \n【18】工業、製造類 35% \n【18-01】CNC 銑床實務類課程 \n【18-02】金屬材料加工製造技術課程 \n【19-02】機械設備修配類課程 \n【20-01】運輸工具製造類課程 \n【20-02】運輸工具修配類課程 \n【22-01】基礎金屬基本工業類課程 \n【22-02】進階金屬基本工業類課程 \n【24-01】塑膠製品製造類課程 \n【26-02】機械控制技術課程 \n【29-01】基礎電力機械器材及設備修配班 \n【29-02】進階電力機械器材及設備修配班 \n【31-01】高科技紡織加工技術類課程 \n【31-02】高科技紡織材料知識課程 \n【32-01】基礎機電、電信、電路及管道類班 \n【32-02】進階機電、電信、電路及管道類班 \n【33-01】化學材料類課程 \n【33-02】化學製品類課程 \n【35-01】非金屬礦物製品相關類實務課程 \n【19】其他類 35% 【99-01】其餘無法歸屬類別之課程 \n備註：單一人時成本=固定費用÷人數÷時數 \n材料費人時成本=單一人時成本*各職類材料費編列比率上限 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\提升勞工自主學習計畫作業手冊.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e:p26:s203"
+    ],
+    "source_pages": [
+      26
+    ],
+    "source_text": " 23 \n【28-01】基礎精密材料類課程 \n【28-02】進階精密材料類實務課程 \n【18】工業、製造類 35% \n【18-01】CNC 銑床實務類課程 \n【18-02】金屬材料加工製造技術課程 \n【19-02】機械設備修配類課程 \n【20-01】運輸工具製造類課程 \n【20-02】運輸工具修配類課程 \n【22-01】基礎金屬基本工業類課程 \n【22-02】進階金屬基本工業類課程 \n【24-01】塑膠製品製造類課程 \n【26-02】機械控制技術課程 \n【29-01】基礎電力機械器材及設備修配班 \n【29-02】進階電力機械器材及設備修配班 \n【31-01】高科技紡織加工技術類課程 \n【31-02】高科技紡織材料知識課程 \n【32-01】基礎機電、電信、電路及管道類班 \n【32-02】進階機電、電信、電路及管道類班 \n【33-01】化學材料類課程 \n【33-02】化學製品類課程 \n【35-01】非金屬礦物製品相關類實務課程 \n【19】其他類 35% 【99-01】其餘無法歸屬類別之課程 \n備註：單一人時成本=固定費用÷人數÷時數 \n材料費人時成本=單一人時成本*各職類材料費編列比率上限 \n",
+    "version": "2B.1",
+    "status": "enabled",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "以原式精確比较；不假設四捨五入容差，不一致仍須人工核對計價精度。",
+    "fully_programmable": true,
+    "requires_human_interpretation": false,
+    "numeric_threshold": null,
+    "data_sufficiency": "依案件執行時檢查"
+  },
+  {
+    "rule_id": "REV-008",
+    "rule_name": "每日與時段訓練時數",
+    "category": "B",
+    "description": "每日與時段訓練時數",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "self_learning"
+    ],
+    "required_case_fields": [
+      "sessions"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e",
+        "sha256": "1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e",
+        "file_name": "提升勞工自主學習計畫作業手冊.pdf",
+        "section_id": "POL-1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e:p6:s71",
+        "page": 6,
+        "text": "（三）訓練時數： \n1.依本計畫第十四點辦理。 \n2.上課時段可區分為上午、下午、夜間共三個時段，單一時段之上課時間以\n四小時為限，一日上課總時數不得超過八小時（但如有特殊情況時，得以\n專案方式呈報審查會議審核） 。每一時段區間應休息至少一小時。 \n3.訓練期間有室外教學行程，不得超過該班訓練總時數五分之一。 \n4.各項訓練課程之時數安排應以實際運用技能訓練為主、學科為輔。 \n5.同一講師授課時數，以不超過五十四小時為原則，但如有特殊情況時，得\n以專案方式呈報審查會議審核。 \n6.實體課程時數應佔訓練計畫總訓練時數三分之一以上。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\提升勞工自主學習計畫作業手冊.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e:p6:s71"
+    ],
+    "source_pages": [
+      6
+    ],
+    "source_text": "（三）訓練時數： \n1.依本計畫第十四點辦理。 \n2.上課時段可區分為上午、下午、夜間共三個時段，單一時段之上課時間以\n四小時為限，一日上課總時數不得超過八小時（但如有特殊情況時，得以\n專案方式呈報審查會議審核） 。每一時段區間應休息至少一小時。 \n3.訓練期間有室外教學行程，不得超過該班訓練總時數五分之一。 \n4.各項訓練課程之時數安排應以實際運用技能訓練為主、學科為輔。 \n5.同一講師授課時數，以不超過五十四小時為原則，但如有特殊情況時，得\n以專案方式呈報審查會議審核。 \n6.實體課程時數應佔訓練計畫總訓練時數三分之一以上。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "有專案例外；時段分組與核准附件須人工確認。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": "單一時段四小時；一日八小時；休息一小時（專案例外）",
+    "data_sufficiency": "有專案例外；時段分組與核准附件須人工確認。"
+  },
+  {
+    "rule_id": "REV-009",
+    "rule_name": "室外教學時數比例",
+    "category": "C",
+    "description": "室外教學時數比例",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "self_learning"
+    ],
+    "required_case_fields": [
+      "sessions"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e",
+        "sha256": "1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e",
+        "file_name": "提升勞工自主學習計畫作業手冊.pdf",
+        "section_id": "POL-1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e:p6:s71",
+        "page": 6,
+        "text": "（三）訓練時數： \n1.依本計畫第十四點辦理。 \n2.上課時段可區分為上午、下午、夜間共三個時段，單一時段之上課時間以\n四小時為限，一日上課總時數不得超過八小時（但如有特殊情況時，得以\n專案方式呈報審查會議審核） 。每一時段區間應休息至少一小時。 \n3.訓練期間有室外教學行程，不得超過該班訓練總時數五分之一。 \n4.各項訓練課程之時數安排應以實際運用技能訓練為主、學科為輔。 \n5.同一講師授課時數，以不超過五十四小時為原則，但如有特殊情況時，得\n以專案方式呈報審查會議審核。 \n6.實體課程時數應佔訓練計畫總訓練時數三分之一以上。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\提升勞工自主學習計畫作業手冊.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e:p6:s71"
+    ],
+    "source_pages": [
+      6
+    ],
+    "source_text": "（三）訓練時數： \n1.依本計畫第十四點辦理。 \n2.上課時段可區分為上午、下午、夜間共三個時段，單一時段之上課時間以\n四小時為限，一日上課總時數不得超過八小時（但如有特殊情況時，得以\n專案方式呈報審查會議審核） 。每一時段區間應休息至少一小時。 \n3.訓練期間有室外教學行程，不得超過該班訓練總時數五分之一。 \n4.各項訓練課程之時數安排應以實際運用技能訓練為主、學科為輔。 \n5.同一講師授課時數，以不超過五十四小時為原則，但如有特殊情況時，得\n以專案方式呈報審查會議審核。 \n6.實體課程時數應佔訓練計畫總訓練時數三分之一以上。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "Excel 未提供室外教學標記，不能把空白視為否。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": "總時數五分之一",
+    "data_sufficiency": "Excel 未提供室外教學標記，不能把空白視為否。"
+  },
+  {
+    "rule_id": "REV-010",
+    "rule_name": "同一講師授課時數",
+    "category": "C",
+    "description": "同一講師授課時數",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "self_learning"
+    ],
+    "required_case_fields": [
+      "sessions",
+      "instructors"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e",
+        "sha256": "1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e",
+        "file_name": "提升勞工自主學習計畫作業手冊.pdf",
+        "section_id": "POL-1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e:p6:s71",
+        "page": 6,
+        "text": "（三）訓練時數： \n1.依本計畫第十四點辦理。 \n2.上課時段可區分為上午、下午、夜間共三個時段，單一時段之上課時間以\n四小時為限，一日上課總時數不得超過八小時（但如有特殊情況時，得以\n專案方式呈報審查會議審核） 。每一時段區間應休息至少一小時。 \n3.訓練期間有室外教學行程，不得超過該班訓練總時數五分之一。 \n4.各項訓練課程之時數安排應以實際運用技能訓練為主、學科為輔。 \n5.同一講師授課時數，以不超過五十四小時為原則，但如有特殊情況時，得\n以專案方式呈報審查會議審核。 \n6.實體課程時數應佔訓練計畫總訓練時數三分之一以上。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\提升勞工自主學習計畫作業手冊.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e:p6:s71"
+    ],
+    "source_pages": [
+      6
+    ],
+    "source_text": "（三）訓練時數： \n1.依本計畫第十四點辦理。 \n2.上課時段可區分為上午、下午、夜間共三個時段，單一時段之上課時間以\n四小時為限，一日上課總時數不得超過八小時（但如有特殊情況時，得以\n專案方式呈報審查會議審核） 。每一時段區間應休息至少一小時。 \n3.訓練期間有室外教學行程，不得超過該班訓練總時數五分之一。 \n4.各項訓練課程之時數安排應以實際運用技能訓練為主、學科為輔。 \n5.同一講師授課時數，以不超過五十四小時為原則，但如有特殊情況時，得\n以專案方式呈報審查會議審核。 \n6.實體課程時數應佔訓練計畫總訓練時數三分之一以上。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "教師身分空白，且有專案例外。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": "五十四小時（專案例外）",
+    "data_sufficiency": "教師身分空白，且有專案例外。"
+  },
+  {
+    "rule_id": "REV-011",
+    "rule_name": "行政管理費支用比例",
+    "category": "C",
+    "description": "行政管理費支用比例",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "self_learning"
+    ],
+    "required_case_fields": [
+      "budget"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e",
+        "sha256": "1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e",
+        "file_name": "提升勞工自主學習計畫作業手冊.pdf",
+        "section_id": "POL-1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e:p27:s213",
+        "page": 27,
+        "text": "(九) 行政管理費：以前列各項費用之百分之九以內支用。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\提升勞工自主學習計畫作業手冊.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-1f3bd64cfe4f0e267cb5e52a99c31954eed1ea3ba1e04375cbeeae4ac516ac8e:p27:s213"
+    ],
+    "source_pages": [
+      27
+    ],
+    "source_text": "(九) 行政管理費：以前列各項費用之百分之九以內支用。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "缺各項支用明細；預算不等於實際支用。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": "前列各項費用百分之九",
+    "data_sufficiency": "缺各項支用明細；預算不等於實際支用。"
+  },
+  {
+    "rule_id": "REV-012",
+    "rule_name": "核定補助人數與例外",
+    "category": "C",
+    "description": "核定補助人數與例外",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "industrial"
+    ],
+    "required_case_fields": [
+      "course.enrollment"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88",
+        "sha256": "ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88",
+        "file_name": "產業人才投資計畫.pdf",
+        "section_id": "POL-ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88:p4:s27",
+        "page": 4,
+        "text": "十三、每班次核定補助人數上限為四十人，各班次非本計畫補助人數至\n多不得超過原核定班次人數百分之二十。但配合本署重要職業訓\n練政策並經分署認定者，不在此限。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\產業人才投資計畫.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88:p4:s27"
+    ],
+    "source_pages": [
+      4
+    ],
+    "source_text": "十三、每班次核定補助人數上限為四十人，各班次非本計畫補助人數至\n多不得超過原核定班次人數百分之二十。但配合本署重要職業訓\n練政策並經分署認定者，不在此限。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "計畫訓練人數不是核定補助人數，缺核定資料與例外附件。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": "四十人；百分之二十（核定資料及專案例外）",
+    "data_sufficiency": "計畫訓練人數不是核定補助人數，缺核定資料與例外附件。"
+  },
+  {
+    "rule_id": "REV-013",
+    "rule_name": "班次時數與開課期間",
+    "category": "B",
+    "description": "班次時數與開課期間",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "industrial"
+    ],
+    "required_case_fields": [
+      "course.declared_hours",
+      "course.start_date",
+      "course.end_date"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88",
+        "sha256": "ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88",
+        "file_name": "產業人才投資計畫.pdf",
+        "section_id": "POL-ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88:p4:s28",
+        "page": 4,
+        "text": "十四、每班次訓練時數應達十六小時以上，最高以不超過一百四十四小\n時為原則，且開課期間不得超過四個月。 \n學分班之訓練時數依教育部之規定辦理。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\產業人才投資計畫.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88:p4:s28"
+    ],
+    "source_pages": [
+      4
+    ],
+    "source_text": "十四、每班次訓練時數應達十六小時以上，最高以不超過一百四十四小\n時為原則，且開課期間不得超過四個月。 \n學分班之訓練時數依教育部之規定辦理。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "原則、學分班及適用前提須人工判讀，不能任意以天數代替月份。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": "十六至一百四十四小時；四個月（原文前提與例外保留）",
+    "data_sufficiency": "原則、學分班及適用前提須人工判讀，不能任意以天數代替月份。"
+  },
+  {
+    "rule_id": "REV-014",
+    "rule_name": "年度期別與開訓日期",
+    "category": "B",
+    "description": "年度期別與開訓日期",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "industrial"
+    ],
+    "required_case_fields": [
+      "course.start_date",
+      "plan"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88",
+        "sha256": "ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88",
+        "file_name": "產業人才投資計畫.pdf",
+        "section_id": "POL-ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88:p4:s32",
+        "page": 4,
+        "text": "十六、訓練課程辦理期間分為上、下半年度，上半年度之開訓日期自一\n月一日起至六月三十日，下半年度自七月一日起至十二月三十一\n日為原則。但配合本署重要職業訓練政策開辦之訓練課程，或配\n合業務需要，本署得另公告訓練課程辦理期間。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\產業人才投資計畫.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88:p4:s32"
+    ],
+    "source_pages": [
+      4
+    ],
+    "source_text": "十六、訓練課程辦理期間分為上、下半年度，上半年度之開訓日期自一\n月一日起至六月三十日，下半年度自七月一日起至十二月三十一\n日為原則。但配合本署重要職業訓練政策開辦之訓練課程，或配\n合業務需要，本署得另公告訓練課程辦理期間。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "有另行公告例外，版本與公告需人工確認。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": null,
+    "data_sufficiency": "有另行公告例外，版本與公告需人工確認。"
+  },
+  {
+    "rule_id": "REV-015",
+    "rule_name": "訓練地點與服務區域",
+    "category": "C",
+    "description": "訓練地點與服務區域",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "industrial"
+    ],
+    "required_case_fields": [
+      "facilities"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88",
+        "sha256": "ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88",
+        "file_name": "產業人才投資計畫.pdf",
+        "section_id": "POL-ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88:p4:s33",
+        "page": 4,
+        "text": "十七、訓練班次地點以訓練單位立案服務區域為優先，且不得跨越訓練\n單位立案服務區域之分署服務轄區。大專校院辦理訓練班次應以\n校本部、分校及其他教育部核定之訓練地點為限。 \n職業訓練機構所辦理之訓練班次應依職業訓練機構設立及管\n理辦法之規定辦理。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\產業人才投資計畫.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-ebd2df41ae2c6beacbbb2bbccf5feb5772262ddeb10ce775afbbbf3484ca8f88:p4:s33"
+    ],
+    "source_pages": [
+      4
+    ],
+    "source_text": "十七、訓練班次地點以訓練單位立案服務區域為優先，且不得跨越訓練\n單位立案服務區域之分署服務轄區。大專校院辦理訓練班次應以\n校本部、分校及其他教育部核定之訓練地點為限。 \n職業訓練機構所辦理之訓練班次應依職業訓練機構設立及管\n理辦法之規定辦理。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "缺核定服務轄區、立案及例外附件。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": null,
+    "data_sufficiency": "缺核定服務轄區、立案及例外附件。"
+  },
+  {
+    "rule_id": "REV-016",
+    "rule_name": "單一人時成本公式一致性",
+    "category": "A",
+    "description": "單一人時成本公式一致性",
+    "rule_type": "arithmetic",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "industrial"
+    ],
+    "required_case_fields": [
+      "budget.fixed_total",
+      "budget.hourly_cost",
+      "course.enrollment",
+      "course.declared_hours"
+    ],
+    "evaluation_method": "hourly_formula",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc",
+        "sha256": "4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc",
+        "file_name": "產業人才投資計畫作業手冊.pdf",
+        "section_id": "POL-4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc:p26:s199",
+        "page": 26,
+        "text": "【28-01】基礎精密材料類課程 \n【28-02】進階精密材料類實務課程 \n【18】工業、製造類 35% \n【18-01】CNC 銑床實務類課程 \n【18-02】金屬材料加工製造技術課程 \n【19-02】機械設備修配類課程 \n【20-01】運輸工具製造類課程 \n【20-02】運輸工具修配類課程 \n【22-01】基礎金屬基本工業類課程 \n【22-02】進階金屬基本工業類課程 \n【24-01】塑膠製品製造類課程 \n【26-02】機械控制技術課程 \n【29-01】基礎電力機械器材及設備修配班 \n【29-02】進階電力機械器材及設備修配班 \n【31-01】高科技紡織加工技術類課程 \n【31-02】高科技紡織材料知識課程 \n【32-01】基礎機電、電信、電路及管道類班 \n【32-02】進階機電、電信、電路及管道類班 \n【33-01】化學材料類課程 \n【33-02】化學製品類課程 \n【35-01】非金屬礦物製品相關類實務課程 \n【19】其他類 35% 【99-01】其餘無法歸屬類別之課程 \n備註：單一人時成本=固定費用÷人數÷時數 \n材料費人時成本=單一人時成本*各職類材料費編列比率上限 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\產業人才投資計畫作業手冊.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc:p26:s199"
+    ],
+    "source_pages": [
+      26
+    ],
+    "source_text": "【28-01】基礎精密材料類課程 \n【28-02】進階精密材料類實務課程 \n【18】工業、製造類 35% \n【18-01】CNC 銑床實務類課程 \n【18-02】金屬材料加工製造技術課程 \n【19-02】機械設備修配類課程 \n【20-01】運輸工具製造類課程 \n【20-02】運輸工具修配類課程 \n【22-01】基礎金屬基本工業類課程 \n【22-02】進階金屬基本工業類課程 \n【24-01】塑膠製品製造類課程 \n【26-02】機械控制技術課程 \n【29-01】基礎電力機械器材及設備修配班 \n【29-02】進階電力機械器材及設備修配班 \n【31-01】高科技紡織加工技術類課程 \n【31-02】高科技紡織材料知識課程 \n【32-01】基礎機電、電信、電路及管道類班 \n【32-02】進階機電、電信、電路及管道類班 \n【33-01】化學材料類課程 \n【33-02】化學製品類課程 \n【35-01】非金屬礦物製品相關類實務課程 \n【19】其他類 35% 【99-01】其餘無法歸屬類別之課程 \n備註：單一人時成本=固定費用÷人數÷時數 \n材料費人時成本=單一人時成本*各職類材料費編列比率上限 \n",
+    "version": "2B.1",
+    "status": "enabled",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "以原式精確比较；不假設四捨五入容差，不一致仍須人工核對計價精度。",
+    "fully_programmable": true,
+    "requires_human_interpretation": false,
+    "numeric_threshold": null,
+    "data_sufficiency": "依案件執行時檢查"
+  },
+  {
+    "rule_id": "REV-017",
+    "rule_name": "每日與時段訓練時數",
+    "category": "B",
+    "description": "每日與時段訓練時數",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "industrial"
+    ],
+    "required_case_fields": [
+      "sessions"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc",
+        "sha256": "4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc",
+        "file_name": "產業人才投資計畫作業手冊.pdf",
+        "section_id": "POL-4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc:p6:s73",
+        "page": 6,
+        "text": "(三) 訓練時數： \n1. 依本計畫第十四點辦理。 \n2. 上課時段可區分為上午、下午、夜間共三個時段，單一時段之上課時間\n以四小時為限，一日上課總時數不得超過八小時（但如有特殊情況時，\n得以專案方式呈報審查會議審核） 。每一時段區間應休息至少一小時。 \n3. 訓練期間有室外教學行程，不得超過該班訓練總時數五分之一。 \n4. 各項訓練課程之時數安排應以實際運用技能訓練為主、學科為輔。 \n5. 同一講師授課時數，以不超過五十四小時為原則，但如有特殊情況時，\n得以專案方式呈報審查會議審核。 \n6. 實體課程時數應佔訓練計畫總訓練時數三分之一以上。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\產業人才投資計畫作業手冊.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc:p6:s73"
+    ],
+    "source_pages": [
+      6
+    ],
+    "source_text": "(三) 訓練時數： \n1. 依本計畫第十四點辦理。 \n2. 上課時段可區分為上午、下午、夜間共三個時段，單一時段之上課時間\n以四小時為限，一日上課總時數不得超過八小時（但如有特殊情況時，\n得以專案方式呈報審查會議審核） 。每一時段區間應休息至少一小時。 \n3. 訓練期間有室外教學行程，不得超過該班訓練總時數五分之一。 \n4. 各項訓練課程之時數安排應以實際運用技能訓練為主、學科為輔。 \n5. 同一講師授課時數，以不超過五十四小時為原則，但如有特殊情況時，\n得以專案方式呈報審查會議審核。 \n6. 實體課程時數應佔訓練計畫總訓練時數三分之一以上。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "有專案例外；時段分組與核准附件須人工確認。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": "單一時段四小時；一日八小時；休息一小時（專案例外）",
+    "data_sufficiency": "有專案例外；時段分組與核准附件須人工確認。"
+  },
+  {
+    "rule_id": "REV-018",
+    "rule_name": "室外教學時數比例",
+    "category": "C",
+    "description": "室外教學時數比例",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "industrial"
+    ],
+    "required_case_fields": [
+      "sessions"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc",
+        "sha256": "4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc",
+        "file_name": "產業人才投資計畫作業手冊.pdf",
+        "section_id": "POL-4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc:p6:s73",
+        "page": 6,
+        "text": "(三) 訓練時數： \n1. 依本計畫第十四點辦理。 \n2. 上課時段可區分為上午、下午、夜間共三個時段，單一時段之上課時間\n以四小時為限，一日上課總時數不得超過八小時（但如有特殊情況時，\n得以專案方式呈報審查會議審核） 。每一時段區間應休息至少一小時。 \n3. 訓練期間有室外教學行程，不得超過該班訓練總時數五分之一。 \n4. 各項訓練課程之時數安排應以實際運用技能訓練為主、學科為輔。 \n5. 同一講師授課時數，以不超過五十四小時為原則，但如有特殊情況時，\n得以專案方式呈報審查會議審核。 \n6. 實體課程時數應佔訓練計畫總訓練時數三分之一以上。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\產業人才投資計畫作業手冊.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc:p6:s73"
+    ],
+    "source_pages": [
+      6
+    ],
+    "source_text": "(三) 訓練時數： \n1. 依本計畫第十四點辦理。 \n2. 上課時段可區分為上午、下午、夜間共三個時段，單一時段之上課時間\n以四小時為限，一日上課總時數不得超過八小時（但如有特殊情況時，\n得以專案方式呈報審查會議審核） 。每一時段區間應休息至少一小時。 \n3. 訓練期間有室外教學行程，不得超過該班訓練總時數五分之一。 \n4. 各項訓練課程之時數安排應以實際運用技能訓練為主、學科為輔。 \n5. 同一講師授課時數，以不超過五十四小時為原則，但如有特殊情況時，\n得以專案方式呈報審查會議審核。 \n6. 實體課程時數應佔訓練計畫總訓練時數三分之一以上。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "Excel 未提供室外教學標記，不能把空白視為否。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": "總時數五分之一",
+    "data_sufficiency": "Excel 未提供室外教學標記，不能把空白視為否。"
+  },
+  {
+    "rule_id": "REV-019",
+    "rule_name": "同一講師授課時數",
+    "category": "C",
+    "description": "同一講師授課時數",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "industrial"
+    ],
+    "required_case_fields": [
+      "sessions",
+      "instructors"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc",
+        "sha256": "4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc",
+        "file_name": "產業人才投資計畫作業手冊.pdf",
+        "section_id": "POL-4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc:p6:s73",
+        "page": 6,
+        "text": "(三) 訓練時數： \n1. 依本計畫第十四點辦理。 \n2. 上課時段可區分為上午、下午、夜間共三個時段，單一時段之上課時間\n以四小時為限，一日上課總時數不得超過八小時（但如有特殊情況時，\n得以專案方式呈報審查會議審核） 。每一時段區間應休息至少一小時。 \n3. 訓練期間有室外教學行程，不得超過該班訓練總時數五分之一。 \n4. 各項訓練課程之時數安排應以實際運用技能訓練為主、學科為輔。 \n5. 同一講師授課時數，以不超過五十四小時為原則，但如有特殊情況時，\n得以專案方式呈報審查會議審核。 \n6. 實體課程時數應佔訓練計畫總訓練時數三分之一以上。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\產業人才投資計畫作業手冊.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc:p6:s73"
+    ],
+    "source_pages": [
+      6
+    ],
+    "source_text": "(三) 訓練時數： \n1. 依本計畫第十四點辦理。 \n2. 上課時段可區分為上午、下午、夜間共三個時段，單一時段之上課時間\n以四小時為限，一日上課總時數不得超過八小時（但如有特殊情況時，\n得以專案方式呈報審查會議審核） 。每一時段區間應休息至少一小時。 \n3. 訓練期間有室外教學行程，不得超過該班訓練總時數五分之一。 \n4. 各項訓練課程之時數安排應以實際運用技能訓練為主、學科為輔。 \n5. 同一講師授課時數，以不超過五十四小時為原則，但如有特殊情況時，\n得以專案方式呈報審查會議審核。 \n6. 實體課程時數應佔訓練計畫總訓練時數三分之一以上。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "教師身分空白，且有專案例外。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": "五十四小時（專案例外）",
+    "data_sufficiency": "教師身分空白，且有專案例外。"
+  },
+  {
+    "rule_id": "REV-020",
+    "rule_name": "行政管理費支用比例",
+    "category": "C",
+    "description": "行政管理費支用比例",
+    "rule_type": "manual",
+    "severity": "提示",
+    "applicable_plan_types": [
+      "industrial"
+    ],
+    "required_case_fields": [
+      "budget"
+    ],
+    "evaluation_method": "manual",
+    "parameters": {},
+    "source_documents": [
+      {
+        "document_id": "POL-4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc",
+        "sha256": "4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc",
+        "file_name": "產業人才投資計畫作業手冊.pdf",
+        "section_id": "POL-4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc:p27:s210",
+        "page": 27,
+        "text": "(九) 行政管理費：以前列各項費用之百分之九以內支用。 \n",
+        "source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\產投規定及審查原則\\產業人才投資計畫作業手冊.pdf",
+        "archived_source_path": "D:\\勞發署主管共識研習營\\AI_Course_Review_POC_Workshop_2_0\\policy_store\\4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc\\source.pdf"
+      }
+    ],
+    "source_sections": [
+      "POL-4842ea67ebe4ae10145be49bee25a9c89af19e92bab10ec541f9f5a0a2c626cc:p27:s210"
+    ],
+    "source_pages": [
+      27
+    ],
+    "source_text": "(九) 行政管理費：以前列各項費用之百分之九以內支用。 \n",
+    "version": "2B.1",
+    "status": "candidate_rule",
+    "created_from": "本地 PDF 原文人工整理候選，待承辦人確認",
+    "created_at": "2026-09-11",
+    "requires_human_confirmation": true,
+    "notes": "缺各項支用明細；預算不等於實際支用。",
+    "fully_programmable": false,
+    "requires_human_interpretation": true,
+    "numeric_threshold": "前列各項費用百分之九",
+    "data_sufficiency": "缺各項支用明細；預算不等於實際支用。"
+  }
+]

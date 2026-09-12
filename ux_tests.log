@@ -1,0 +1,16 @@
+...........2026-09-11 21:24:01.903 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+E2026-09-11 21:24:12.049 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+...
+======================================================================
+ERROR: test_ui_direct_start_filter_confirm_summary (test_phase2b1.UXTests.test_ui_direct_start_filter_confirm_summary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\勞發署主管共識研習營\AI_Course_Review_POC_Workshop_2_0\test_phase2b1.py", line 124, in test_ui_direct_start_filter_confirm_summary
+    self.assertFalse(evidence.expanded)
+                     ^^^^^^^^^^^^^^^^^
+AttributeError: 'Expander' object has no attribute 'expanded'. Did you mean: 'expander'?
+
+----------------------------------------------------------------------
+Ran 15 tests in 14.109s
+
+FAILED (errors=1)

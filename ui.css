@@ -1,0 +1,119 @@
+/* 本機投影展示樣式；不參與案件或確認邏輯。 */
+html, body, .stApp {font-family:"Microsoft JhengHei","Noto Sans TC",sans-serif;}
+.block-container {max-width:1600px;padding:5rem 2.5rem 3rem;}
+[data-testid="stHeader"] {background:transparent;}
+#MainMenu, [data-testid="stToolbar"] {visibility:hidden;}
+.poc-banner {position:fixed;top:0;left:0;right:0;z-index:999999;background:#153854;color:#fff;
+ padding:12px 24px;text-align:center;font-size:16px;line-height:1.5;}
+.eyebrow {color:#52677d;font-size:14px;letter-spacing:.06em;margin-bottom:4px;}
+h1 {font-size:2.05rem !important;line-height:1.35 !important;padding-top:0 !important;}
+h2 {font-size:1.55rem !important;line-height:1.5 !important;}
+h3 {font-size:1.2rem !important;line-height:1.5 !important;}
+[data-testid="stMarkdownContainer"] p, [data-testid="stMarkdownContainer"] li {font-size:17px;line-height:1.75;}
+[data-testid="stCaptionContainer"] p {font-size:14px;color:#53667a;line-height:1.6;}
+.stButton button, .stDownloadButton button {min-height:48px;border-radius:7px;padding:10px 18px;}
+.stButton button p, .stDownloadButton button p {font-size:17px !important;font-weight:600;line-height:1.4;}
+.stButton button:focus-visible, .stDownloadButton button:focus-visible {outline:3px solid #8cabc6;outline-offset:3px;}
+button[kind="primary"] {box-shadow:0 2px 3px #163e6810;}
+button:disabled {opacity:.55;}
+[data-testid="stVerticalBlockBorderWrapper"] {border-radius:9px;}
+.case-strip {background:#eaf0f6;border-left:4px solid #365c7c;padding:12px 18px;border-radius:5px;margin:7px 0 0;}
+.case-top {display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:17px;font-weight:600;}
+.case-id {color:#52677d;font-size:14px;margin-right:12px;}
+.case-meta {font-size:14px;color:#52677d;margin-top:6px;line-height:1.6;}
+.case-state {background:#fff;color:#254863;padding:5px 12px;border-radius:5px;font-size:15px;white-space:nowrap;}
+.badge {display:inline-block;padding:5px 12px;border-radius:5px;font-size:16px;font-weight:700;}
+.ok {background:#eaf3ee;color:#2a654d;}
+.warn {background:#fff3dc;color:#81560c;}
+.bad {background:#f5ede8;color:#854b2f;}
+.stage {padding:12px 20px;border:1px solid #dbe3ed;border-radius:7px;margin:8px 0;background:#fff;}
+.stage.active {border-left:5px solid #315c81;background:#edf3f9;}
+.stage small {font-size:16px;color:#53677b;line-height:1.7;} .stage strong {font-size:18px;}
+.evidence {white-space:pre-wrap;line-height:1.85;font-size:17px;}
+mark {background:#fff0b8;color:#172b42;padding:2px 3px;}
+[data-testid="stMetric"] {background:#fff;border:1px solid #dce4ed;border-radius:8px;padding:10px 18px;}
+[data-testid="stMetricValue"] {font-size:2rem;}
+.st-key-summary_ok [data-testid="stMetric"] {border-top:4px solid #648c76;}
+.st-key-summary_warn [data-testid="stMetric"] {border-top:4px solid #c0973c;}
+.st-key-summary_bad [data-testid="stMetric"] {border-top:4px solid #a87555;}
+.st-key-review_list {background:#eef2f6;border-radius:8px;padding:16px;}
+.st-key-review_list [role="radiogroup"] {gap:8px;}
+.st-key-review_list [role="radiogroup"] label {background:#fff;border:1px solid #dbe3ec;border-radius:6px;padding:10px 12px;align-items:flex-start;min-height:56px;}
+.st-key-review_list [role="radiogroup"] label:has(input:checked) {border:2px solid #365e82;background:#eaf1f8;}
+.st-key-review_list [role="radiogroup"] label p {font-size:16px;line-height:1.55;}
+.section-label {font-size:16px;font-weight:700;color:#254762;letter-spacing:.03em;margin-bottom:10px;}
+.section-label span {color:#74869a;font-size:14px;margin-right:9px;}
+.review-card {border:1px solid #dce4ec;background:#fff;border-radius:7px;padding:16px 18px;margin:0;}
+.review-card.finding {border-left:4px solid #a87555;background:#faf6f2;}
+.review-card.finding.warn {border-left-color:#c0973c;background:#fffaf0;color:#172b42;}
+.review-card.finding.ok {border-left-color:#648c76;background:#f2f7f4;color:#172b42;}
+.review-card p {margin:0;font-size:18px;line-height:1.8;}
+.quote-source {font-size:14px;color:#53677b;line-height:1.6;margin:12px 0 5px;}
+.quote-text {font-size:17px;line-height:1.85;border-left:3px solid #b9cad9;padding-left:12px;}
+.rule-text {font-size:18px;line-height:1.8;color:#183c5b;font-weight:600;margin-bottom:8px;}
+.st-key-review_detail {background:#fff;border:1px solid #dce4ec;border-radius:9px;padding:20px;}
+.st-key-review_detail [data-testid="stVerticalBlock"] {gap:14px;}
+.st-key-draft_editor textarea {font-family:"Microsoft JhengHei","Noto Sans TC",sans-serif;font-size:18px !important;line-height:1.95 !important;padding:22px 26px;background:#fff;}
+.st-key-draft_editor [data-baseweb="textarea"] {border:1px solid #b7c8d9;border-radius:8px;box-shadow:0 3px 12px #18385508;}
+.st-key-note_input textarea {font-size:17px;line-height:1.7;}
+[data-baseweb="select"] > div {min-height:46px;}
+.reading-guide {border-left:4px solid #365e82;background:#eaf0f6;border-radius:5px;padding:12px 18px;font-size:16px;color:#294966;line-height:1.7;}
+table {font-size:16px !important;} th {background:#edf2f7;}
+@media(min-width:1600px){.block-container{padding-left:3rem;padding-right:3rem;}}
+@media(max-width:900px){.block-container{padding:6rem 1rem 2rem}.poc-banner{font-size:14px;padding:10px}h1{font-size:1.6rem !important;}.case-top{font-size:16px}.st-key-review_detail{padding:14px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none !important;transition:none !important;}}
+
+/* 1920 × 1080 投影：主要結論優先，次要依據展開閱讀。 */
+.block-container {max-width:1780px;}
+.poc-banner {font-size:18px;}
+h1 {font-size:2.5rem !important;}
+h2 {font-size:2rem !important;}
+h3 {font-size:1.5rem !important;}
+[data-testid="stMarkdownContainer"] p,
+[data-testid="stMarkdownContainer"] li {font-size:21px;line-height:1.7;}
+[data-testid="stCaptionContainer"] p {font-size:16px;}
+.stButton button, .stDownloadButton button {min-height:54px;}
+.stButton button p, .stDownloadButton button p {font-size:20px !important;}
+.case-top {font-size:20px;}.case-state {font-size:18px;}
+.case-meta, .case-id, .eyebrow {font-size:16px;}
+.badge, .section-label {font-size:20px;}
+.section-label span {font-size:17px;}
+.home-purpose {font-size:26px;font-weight:600;line-height:1.7;color:#244a6c;}
+[data-testid="stMetricValue"] {font-size:3rem;}
+[class*="st-key-summary_"] [data-testid="stMetric"] {padding:20px 26px;min-height:150px;}
+[class*="st-key-summary_"] [data-testid="stMetricValue"] {font-size:3.5rem;line-height:1.25;}
+[class*="st-key-summary_"] [data-testid="stMetricLabel"] p {font-size:24px;font-weight:600;}
+.st-key-review_list [role="radiogroup"] label p {font-size:19px;}
+.review-card p {font-size:22px;}
+.evidence, .quote-text, .rule-text {font-size:20px;}
+.quote-source {font-size:17px;}
+.stage small {font-size:19px;}.stage strong {font-size:22px;}
+.st-key-draft_editor textarea {font-size:21px !important;line-height:1.9 !important;}
+.st-key-note_input textarea {font-size:20px;}
+.reading-guide {font-size:20px;}
+[data-baseweb="select"] {font-size:20px;}
+.hours-comparison {display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;}
+.hours-comparison > div {background:#edf2f7;padding:16px 20px;border-radius:7px;}
+.hours-comparison span {display:block;font-size:20px;color:#405c75;}
+.hours-comparison strong {display:block;font-size:58px;font-weight:750;line-height:1.25;color:#163e68;font-variant-numeric:tabular-nums;}
+.hours-comparison small {font-size:22px;font-weight:500;}
+.hours-comparison .hours-difference {background:#f5ede5;border:1px solid #decaba;}
+.hours-difference strong {color:#855132;}
+.brief-summary {background:#fff;border:1px solid #d6e0ea;border-radius:9px;padding:26px;}
+.brief-stats {display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:22px;}
+.brief-stat {padding:16px 24px;border-radius:7px;display:flex;align-items:center;gap:22px;flex-wrap:wrap;}
+.brief-stat strong {font-size:48px;line-height:1.2;}.brief-stat small {font-size:22px;font-weight:500;}
+.brief-stat span {font-size:24px;font-weight:600;}
+.brief-line {display:flex;gap:24px;padding:14px 0;border-top:1px solid #e2e8ef;font-size:24px;line-height:1.65;}
+.brief-line > span {flex:0 0 110px;color:#526b82;}.brief-line strong {font-weight:600;color:#193e5e;}
+@media(max-width:1100px){
+ h1{font-size:2rem !important;}h2{font-size:1.65rem !important;}
+ .stButton button p{font-size:17px !important;}.hours-comparison strong{font-size:42px;}
+ .hours-comparison > div{padding:12px;}.brief-stat{gap:10px;padding:14px;}
+}
+@media(max-width:700px){
+ .poc-banner{font-size:14px;}.block-container{padding-top:7rem;}
+ .hours-comparison,.brief-stats{grid-template-columns:1fr;}
+ .brief-line{display:block;font-size:21px;}.brief-line > span{display:block;}
+ .home-purpose{font-size:22px;}
+}

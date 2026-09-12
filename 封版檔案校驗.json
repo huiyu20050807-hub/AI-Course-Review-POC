@@ -1,0 +1,47 @@
+{
+  "version": "Workshop-1.0-FINAL",
+  "date": "2026-09-10",
+  "tests": "11 passed",
+  "files": [
+    {
+      "file": "app.py",
+      "sha256": "CEFD21CDED5C7BBBCD850ABA9FF40D1FBFB2DFAD50C4F1A0450AB46C8F05F5F0"
+    },
+    {
+      "file": "review_logic.py",
+      "sha256": "4DC3189ADEA5B896368ED0AE40354C5A2EF9C8D5F18E6262E764FD3728ACBBF6"
+    },
+    {
+      "file": "demo_data.py",
+      "sha256": "4FC9FE43C9109C37E5A1835120809EA55493DF699F1CF0BCDA5E6767FF72674C"
+    },
+    {
+      "file": "ui.css",
+      "sha256": "D0D877508C5170280324B08945CB1DD2DB3572D9B78EFAABDD8F6C00B0581623"
+    },
+    {
+      "file": ".streamlit/config.toml",
+      "sha256": "5BC688BBA0F99B044BFF4E0E14D5D2DB183BF0DAA0F8819BDBD788777FB2187B"
+    },
+    {
+      "file": "requirements.txt",
+      "sha256": "8786736F43AD469A644F87159FA74F7940E15DC577D8953938AD74C7F1FC58B2"
+    },
+    {
+      "file": "requirements-lock.txt",
+      "sha256": "62B3E5FBEEA749AEB970F3D28205D2419405970EC5A124F5D004BBF92AF4BE28"
+    },
+    {
+      "file": "start_poc.cmd",
+      "sha256": "932EA083584F5087AE62758E6D76358FB475670E3D5155EE7F1AF6059A78290D"
+    },
+    {
+      "file": "test_poc.py",
+      "sha256": "6D576EE123BE92FCEF0D081E0D2B5CE79BCA11853FD15934984D7C7CD70FC9E2"
+    },
+    {
+      "file": "test_state_sync.py",
+      "sha256": "F00C1E2A2CA7214AA74C283D64C96F70E1A1E9A88B9B56E8B9D1B968608DB9A4"
+    }
+  ]
+}

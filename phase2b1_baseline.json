@@ -1,0 +1,11 @@
+{
+  "excel_parser.py": "12b68e1b5f451abb478c006bda204f756ca9fbafd95e224a683e088d71415a4f",
+  "policy_parser.py": "c3a87a657fdecaacaf12d8938d31c527d28ba2d54da225d775071706dd5d6bc4",
+  "review_rules.py": "937143abc8193c85f06729b69b1ae0efb9b32982365b952200297dfcb6069e6c",
+  "candidate_rules.json": "72ba10134fdc2cc37c82ae153a0a9452a794cc695851be0edac568d4ec2f28d2",
+  "data_checks.py": "a3d58486d879d9ff41b8d71ba53382833e5ac4d53b417be9c398fb4f2a0bd650",
+  "case_state.py": "e995e3f0adaa68d894d75174fd75f430a8263d8ee94655d84f9889d465f54efb",
+  "test_phase1.py": "62b62fe7aa1525b0cffcaaf2c025494eb6596661d3a89ec23b7dae3e8d98f169",
+  "test_phase2a.py": "52f18f57f835d261e80e6957090a585669b8eb4bad9806c245bf08902bf6dbda",
+  "test_phase2b.py": "a72c8c19010a75057e8783a6313925858b82b15befb093f3721cfb12b567fb84"
+}

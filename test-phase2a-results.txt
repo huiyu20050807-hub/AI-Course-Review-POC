@@ -1,0 +1,30 @@
+test_234_pdf_pages_and_text_success (test_phase2a.PolicyTests.test_234_pdf_pages_and_text_success) ... ok
+test_all_sha256_and_source_copy_match (test_phase2a.PolicyTests.test_all_sha256_and_source_copy_match) ... ok
+test_body_period_mismatch_not_applicable (test_phase2a.PolicyTests.test_body_period_mismatch_not_applicable) ... ok
+test_case_adapter_does_not_change_phase1_schema (test_phase2a.PolicyTests.test_case_adapter_does_not_change_phase1_schema) ... ok
+test_conflicting_filename_and_body_stays_unknown (test_phase2a.PolicyTests.test_conflicting_filename_and_body_stays_unknown) ... ok
+test_content_versions_preserve_old_snapshot (test_phase2a.PolicyTests.test_content_versions_preserve_old_snapshot) ... ok
+test_corrupt_and_textless_pdf_fail_explicitly (test_phase2a.PolicyTests.test_corrupt_and_textless_pdf_fail_explicitly) ... invalid pdf header: b'corru'
+EOF marker not found
+EOF marker not found
+ok
+test_date_range_overlap_and_no_overlap (test_phase2a.PolicyTests.test_date_range_overlap_and_no_overlap) ... ok
+test_filename_hints_separated_and_115_not_auto_applied (test_phase2a.PolicyTests.test_filename_hints_separated_and_115_not_auto_applied) ... ok
+test_four_keyword_searches_exact_source_and_page (test_phase2a.PolicyTests.test_four_keyword_searches_exact_source_and_page) ... ok
+test_matching_explicit_period_and_plan (test_phase2a.PolicyTests.test_matching_explicit_period_and_plan) ... ok
+test_no_period_is_unknown_even_with_revision_date (test_phase2a.PolicyTests.test_no_period_is_unknown_even_with_revision_date) ... ok
+test_phase1_core_and_tests_hashes_unchanged (test_phase2a.PolicyTests.test_phase1_core_and_tests_hashes_unchanged) ... ok
+test_plan_mismatch_not_applicable (test_phase2a.PolicyTests.test_plan_mismatch_not_applicable) ... ok
+test_revision_dates_not_invented_from_bare_dates (test_phase2a.PolicyTests.test_revision_dates_not_invented_from_bare_dates) ... ok
+test_schema_and_exact_page_offsets (test_phase2a.PolicyTests.test_schema_and_exact_page_offsets) ... ok
+test_six_pdf_scan (test_phase2a.PolicyTests.test_six_pdf_scan) ... ok
+test_title_heading_scopes_and_empty_query (test_phase2a.PolicyTests.test_title_heading_scopes_and_empty_query) ... ok
+test_titles_and_plan_types_from_body (test_phase2a.PolicyTests.test_titles_and_plan_types_from_body) ... ok
+test_untrusted_filename_fields_cannot_create_applicable (test_phase2a.PolicyTests.test_untrusted_filename_fields_cannot_create_applicable) ... ok
+test_switch_case_refreshes_applicability_and_search (test_phase2a.PolicyUITests.test_switch_case_refreshes_applicability_and_search) ... 2026-09-11 20:37:38.711 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 14.286s
+
+OK

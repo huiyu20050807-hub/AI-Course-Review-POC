@@ -1,0 +1,30 @@
+{
+  "title": "policy_document-1",
+  "type": "object",
+  "required": ["document_id", "source_path", "file_name", "sha256", "title", "document_type", "plan_type", "roc_year", "period", "effective_from", "effective_to", "revision_date", "status", "applicability_notes", "pages", "sections", "parse_report", "parser_version", "metadata_evidence", "filename_hints"],
+  "properties": {
+    "document_id": {"type": "string"},
+    "source_path": {"type": "string"},
+    "file_name": {"type": "string"},
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "title": {"type": "string"},
+    "document_type": {"type": "string"},
+    "plan_type": {"enum": ["industrial", "self_learning", "both", "unknown"]},
+    "roc_year": {"oneOf": [{"type": "integer"}, {"const": "unknown"}]},
+    "period": {"enum": ["上半年", "下半年", "unknown"]},
+    "effective_from": {"type": "string"},
+    "effective_to": {"type": "string"},
+    "revision_date": {"type": "string"},
+    "status": {"const": "unverified"},
+    "applicability_notes": {"type": "array", "items": {"type": "string"}},
+    "pages": {"type": "array", "items": {"type": "object", "required": ["page_number", "text", "text_status"], "properties": {"page_number": {"type": "integer", "minimum": 1}, "text": {"type": "string"}, "text_status": {"enum": ["text_available", "no_usable_text", "extraction_failed"]}}}},
+    "sections": {
+      "type": "array", "items": {"type": "object", "required": ["section_id", "heading", "article_no", "item_no", "text", "page_start", "page_end", "source_excerpt", "char_start", "char_end"],
+      "properties": {"section_id": {"type": "string"}, "heading": {"type": "string"}, "article_no": {"type": "string"}, "item_no": {"type": "string"}, "text": {"type": "string"}, "source_excerpt": {"type": "string"}, "page_start": {"type": "integer", "minimum": 1}, "page_end": {"type": "integer", "minimum": 1}, "char_start": {"type": "integer", "minimum": 0}, "char_end": {"type": "integer", "minimum": 0}}}
+    },
+    "parse_report": {"type": "object", "required": ["status", "method", "text_pages", "errors", "warnings"], "properties": {"status": {"enum": ["success", "partial", "failed"]}}},
+    "parser_version": {"type": "string"},
+    "metadata_evidence": {"type": "object"},
+    "filename_hints": {"type": "object"}
+  }
+}

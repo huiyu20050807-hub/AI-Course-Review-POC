@@ -1,0 +1,176 @@
+test_20_core_values_against_independent_source_cells (test_phase1.ExcelAcceptanceTests.test_20_core_values_against_independent_source_cells) ... ok
+test_20_deterministic_results (test_phase1.ExcelAcceptanceTests.test_20_deterministic_results) ... ok
+test_20_workbooks_load_and_schema (test_phase1.ExcelAcceptanceTests.test_20_workbooks_load_and_schema) ... ok
+test_323_sessions_and_20_audited_totals (test_phase1.ExcelAcceptanceTests.test_323_sessions_and_20_audited_totals) ... ok
+test_a_b_a_state_isolation_and_rechecking (test_phase1.ExcelAcceptanceTests.test_a_b_a_state_isolation_and_rechecking) ... ok
+test_all_source_refs_trace_raw_values (test_phase1.ExcelAcceptanceTests.test_all_source_refs_trace_raw_values) ... ok
+test_bad_date_is_partial_and_core_check_cannot_pass (test_phase1.ExcelAcceptanceTests.test_bad_date_is_partial_and_core_check_cannot_pass) ... ok
+test_bad_number_reported_not_consistent (test_phase1.ExcelAcceptanceTests.test_bad_number_reported_not_consistent) ... ok
+test_blank_core_value_not_unknown_format (test_phase1.ExcelAcceptanceTests.test_blank_core_value_not_unknown_format) ... ok
+test_blank_hours_do_not_become_zero_or_consistent (test_phase1.ExcelAcceptanceTests.test_blank_hours_do_not_become_zero_or_consistent) ... ok
+test_blank_staff_and_assignments_are_not_fabricated (test_phase1.ExcelAcceptanceTests.test_blank_staff_and_assignments_are_not_fabricated) ... ok
+test_formula_is_not_treated_as_cached_success (test_phase1.ExcelAcceptanceTests.test_formula_is_not_treated_as_cached_success) ... ok
+test_mismatch_and_zero_are_distinct_from_missing (test_phase1.ExcelAcceptanceTests.test_mismatch_and_zero_are_distinct_from_missing) ... ok
+test_missing_budget_inputs_and_money_mismatches (test_phase1.ExcelAcceptanceTests.test_missing_budget_inputs_and_money_mismatches) ... ok
+test_presence_requires_manual_judgment_when_provided (test_phase1.ExcelAcceptanceTests.test_presence_requires_manual_judgment_when_provided) ... ok
+test_scan_ignores_excel_lockfiles (test_phase1.ExcelAcceptanceTests.test_scan_ignores_excel_lockfiles) ... ok
+test_shifted_sections_not_fixed_rows (test_phase1.ExcelAcceptanceTests.test_shifted_sections_not_fixed_rows) ... ok
+test_skill_variant_column_and_evidence (test_phase1.ExcelAcceptanceTests.test_skill_variant_column_and_evidence) ... ok
+test_source_revision_does_not_inherit_confirmation (test_phase1.ExcelAcceptanceTests.test_source_revision_does_not_inherit_confirmation) ... ok
+test_unknown_format_and_corruption_cannot_load (test_phase1.ExcelAcceptanceTests.test_unknown_format_and_corruption_cannot_load) ... ok
+test_unsaved_is_not_reviewed (test_phase1.ExcelAcceptanceTests.test_unsaved_is_not_reviewed) ... ok
+test_original_and_copied_excels_unchanged (test_phase1.SealTests.test_original_and_copied_excels_unchanged) ... ok
+test_original_v1_and_legacy_copy_seals_unchanged (test_phase1.SealTests.test_original_v1_and_legacy_copy_seals_unchanged) ... ok
+test_failed_file_ui_has_no_load_button (test_phase1.UIAcceptanceTests.test_failed_file_ui_has_no_load_button) ... 2026-09-11 22:55:54.425 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_real_selection_preview_load_checks_and_a_b_a (test_phase1.UIAcceptanceTests.test_real_selection_preview_load_checks_and_a_b_a) ... 2026-09-11 22:55:54.995 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_234_pdf_pages_and_text_success (test_phase2a.PolicyTests.test_234_pdf_pages_and_text_success) ... ok
+test_all_sha256_and_source_copy_match (test_phase2a.PolicyTests.test_all_sha256_and_source_copy_match) ... ok
+test_body_period_mismatch_not_applicable (test_phase2a.PolicyTests.test_body_period_mismatch_not_applicable) ... ok
+test_case_adapter_does_not_change_phase1_schema (test_phase2a.PolicyTests.test_case_adapter_does_not_change_phase1_schema) ... ok
+test_conflicting_filename_and_body_stays_unknown (test_phase2a.PolicyTests.test_conflicting_filename_and_body_stays_unknown) ... ok
+test_content_versions_preserve_old_snapshot (test_phase2a.PolicyTests.test_content_versions_preserve_old_snapshot) ... ok
+test_corrupt_and_textless_pdf_fail_explicitly (test_phase2a.PolicyTests.test_corrupt_and_textless_pdf_fail_explicitly) ... invalid pdf header: b'corru'
+EOF marker not found
+EOF marker not found
+ok
+test_date_range_overlap_and_no_overlap (test_phase2a.PolicyTests.test_date_range_overlap_and_no_overlap) ... ok
+test_filename_hints_separated_and_115_not_auto_applied (test_phase2a.PolicyTests.test_filename_hints_separated_and_115_not_auto_applied) ... ok
+test_four_keyword_searches_exact_source_and_page (test_phase2a.PolicyTests.test_four_keyword_searches_exact_source_and_page) ... ok
+test_matching_explicit_period_and_plan (test_phase2a.PolicyTests.test_matching_explicit_period_and_plan) ... ok
+test_no_period_is_unknown_even_with_revision_date (test_phase2a.PolicyTests.test_no_period_is_unknown_even_with_revision_date) ... ok
+test_phase1_core_and_tests_hashes_unchanged (test_phase2a.PolicyTests.test_phase1_core_and_tests_hashes_unchanged) ... ok
+test_plan_mismatch_not_applicable (test_phase2a.PolicyTests.test_plan_mismatch_not_applicable) ... ok
+test_revision_dates_not_invented_from_bare_dates (test_phase2a.PolicyTests.test_revision_dates_not_invented_from_bare_dates) ... ok
+test_schema_and_exact_page_offsets (test_phase2a.PolicyTests.test_schema_and_exact_page_offsets) ... ok
+test_six_pdf_scan (test_phase2a.PolicyTests.test_six_pdf_scan) ... ok
+test_title_heading_scopes_and_empty_query (test_phase2a.PolicyTests.test_title_heading_scopes_and_empty_query) ... ok
+test_titles_and_plan_types_from_body (test_phase2a.PolicyTests.test_titles_and_plan_types_from_body) ... ok
+test_untrusted_filename_fields_cannot_create_applicable (test_phase2a.PolicyTests.test_untrusted_filename_fields_cannot_create_applicable) ... ok
+test_new_active_case_updates_policy_comparison (test_phase2a.PolicyUITests.test_new_active_case_updates_policy_comparison) ... 2026-09-11 22:56:08.217 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_switch_case_refreshes_applicability_and_search (test_phase2a.PolicyUITests.test_switch_case_refreshes_applicability_and_search) ... 2026-09-11 22:56:09.307 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_all_twenty_cases_formula_evidence (test_phase2b.RuleTests.test_all_twenty_cases_formula_evidence) ... ok
+test_candidates_sources (test_phase2b.RuleTests.test_candidates_sources) ... ok
+test_case_isolation (test_phase2b.RuleTests.test_case_isolation) ... ok
+test_changes_make_old_confirmation_stale (test_phase2b.RuleTests.test_changes_make_old_confirmation_stale) ... ok
+test_confirmation_not_override_parser (test_phase2b.RuleTests.test_confirmation_not_override_parser) ... ok
+test_confirmed_document_and_formula_execute (test_phase2b.RuleTests.test_confirmed_document_and_formula_execute) ... ok
+test_cross_plan_blocked (test_phase2b.RuleTests.test_cross_plan_blocked) ... ok
+test_data_validation_separate (test_phase2b.RuleTests.test_data_validation_separate) ... ok
+test_formula_requires_confirmation (test_phase2b.RuleTests.test_formula_requires_confirmation) ... ok
+test_invented_text_rejected (test_phase2b.RuleTests.test_invented_text_rejected) ... ok
+test_invented_threshold_rejected (test_phase2b.RuleTests.test_invented_threshold_rejected) ... ok
+test_mismatch_is_suspicion_not_legal_verdict (test_phase2b.RuleTests.test_mismatch_is_suspicion_not_legal_verdict) ... ok
+test_missing_not_zero (test_phase2b.RuleTests.test_missing_not_zero) ... ok
+test_missing_source_rejected (test_phase2b.RuleTests.test_missing_source_rejected) ... ok
+test_override_keeps_system_and_history (test_phase2b.RuleTests.test_override_keeps_system_and_history) ... ok
+test_page_and_exact_text (test_phase2b.RuleTests.test_page_and_exact_text) ... ok
+test_pdf_update_blocks_without_changing_old_run (test_phase2b.RuleTests.test_pdf_update_blocks_without_changing_old_run) ... ok
+test_reject_document_blocks (test_phase2b.RuleTests.test_reject_document_blocks) ... ok
+test_same_version_cannot_replace_definition (test_phase2b.RuleTests.test_same_version_cannot_replace_definition) ... ok
+test_ui_end_to_end_and_navigation (test_phase2b.RuleTests.test_ui_end_to_end_and_navigation) ... 2026-09-11 22:56:20.109 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_unknown_does_not_execute (test_phase2b.RuleTests.test_unknown_does_not_execute) ... ok
+test_version_hash_snapshot (test_phase2b.RuleTests.test_version_hash_snapshot) ... ok
+test_zero_denominator_fails (test_phase2b.RuleTests.test_zero_denominator_fails) ... ok
+test_a_b_a_no_contamination (test_phase2b1.UXTests.test_a_b_a_no_contamination) ... ok
+test_advanced_human_result_survives_main_entry (test_phase2b1.UXTests.test_advanced_human_result_survives_main_entry) ... ok
+test_confirmation_change_invalidates_rules_only (test_phase2b1.UXTests.test_confirmation_change_invalidates_rules_only) ... ok
+test_core_and_previous_tests_unchanged (test_phase2b1.UXTests.test_core_and_previous_tests_unchanged) ... ok
+test_four_counts (test_phase2b1.UXTests.test_four_counts) ... ok
+test_full_evidence_preserved (test_phase2b1.UXTests.test_full_evidence_preserved) ... ok
+test_human_data_saved_in_legacy_and_summary (test_phase2b1.UXTests.test_human_data_saved_in_legacy_and_summary) ... ok
+test_needs_filter (test_phase2b1.UXTests.test_needs_filter) ... ok
+test_priority_sort (test_phase2b1.UXTests.test_priority_sort) ... ok
+test_settings_resume_executes_existing_rule (test_phase2b1.UXTests.test_settings_resume_executes_existing_rule) ... ok
+test_summary_exact_current_results (test_phase2b1.UXTests.test_summary_exact_current_results) ... ok
+test_ui_direct_start_filter_confirm_summary (test_phase2b1.UXTests.test_ui_direct_start_filter_confirm_summary) ... 2026-09-11 22:56:26.180 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_ui_settings_return (test_phase2b1.UXTests.test_ui_settings_return) ... 2026-09-11 22:56:28.607 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_unified_data_and_review (test_phase2b1.UXTests.test_unified_data_and_review) ... ok
+test_unknown_never_calculated (test_phase2b1.UXTests.test_unknown_never_calculated) ... ok
+test_case_isolation (test_phase2c.SemanticTests.test_case_isolation) ... ok
+test_confirmed_policy_traceability_bounded (test_phase2c.SemanticTests.test_confirmed_policy_traceability_bounded) ... ok
+test_core_and_96_tests_unchanged (test_phase2c.SemanticTests.test_core_and_96_tests_unchanged) ... ok
+test_draft_changes_invalidate (test_phase2c.SemanticTests.test_draft_changes_invalidate) ... ok
+test_draft_locked_until_saved (test_phase2c.SemanticTests.test_draft_locked_until_saved) ... ok
+test_draft_rejects_unsaved_or_stale_rows (test_phase2c.SemanticTests.test_draft_rejects_unsaved_or_stale_rows) ... ok
+test_draft_sections_minimal_and_not_auto_confirmed (test_phase2c.SemanticTests.test_draft_sections_minimal_and_not_auto_confirmed) ... ok
+test_exact_whitelist (test_phase2c.SemanticTests.test_exact_whitelist) ... ok
+test_excel_evidence (test_phase2c.SemanticTests.test_excel_evidence) ... ok
+test_external_blocked (test_phase2c.SemanticTests.test_external_blocked) ... ok
+test_files_rejected (test_phase2c.SemanticTests.test_files_rejected) ... ok
+test_four_schema (test_phase2c.SemanticTests.test_four_schema) ... ok
+test_human_no_overwrite (test_phase2c.SemanticTests.test_human_no_overwrite) ... ok
+test_input_change_stale_no_overwrite (test_phase2c.SemanticTests.test_input_change_stale_no_overwrite) ... ok
+test_invalid_provider_output_not_completed (test_phase2c.SemanticTests.test_invalid_provider_output_not_completed) ... ok
+test_masked_before_provider (test_phase2c.SemanticTests.test_masked_before_provider) ... ok
+test_mock_full_run_no_network_or_core_mutation (test_phase2c.SemanticTests.test_mock_full_run_no_network_or_core_mutation) ... ok
+test_no_formal_status (test_phase2c.SemanticTests.test_no_formal_status) ... ok
+test_no_network_and_repeatable_fixtures (test_phase2c.SemanticTests.test_no_network_and_repeatable_fixtures) ... ok
+test_pii_masking (test_phase2c.SemanticTests.test_pii_masking) ... ok
+test_priorities_integration (test_phase2c.SemanticTests.test_priorities_integration) ... ok
+test_prompt_injection_is_data_in_mock (test_phase2c.SemanticTests.test_prompt_injection_is_data_in_mock) ... ok
+test_real_input_does_not_claim_analysis (test_phase2c.SemanticTests.test_real_input_does_not_claim_analysis) ... ok
+test_rejected_policy_not_used (test_phase2c.SemanticTests.test_rejected_policy_not_used) ... ok
+test_ui_draft_edit_and_explicit_confirmation (test_phase2c.SemanticTests.test_ui_draft_edit_and_explicit_confirmation) ... 2026-09-11 22:56:32.651 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-09-11 22:56:32.651 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-09-11 22:56:32.651 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-09-11 22:56:32.651 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-09-11 22:56:32.651 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_ui_mock_card_human_and_cross_page (test_phase2c.SemanticTests.test_ui_mock_card_human_and_cross_page) ... 2026-09-11 22:56:34.252 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_unknown_policy_empty (test_phase2c.SemanticTests.test_unknown_policy_empty) ... ok
+test_a_b_a_preserves_processing (test_phase_final.FinalTests.test_a_b_a_preserves_processing) ... 2026-09-11 22:56:36.880 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_resource_sources_pages_keywords_and_read_only (test_phase_final.FinalTests.test_resource_sources_pages_keywords_and_read_only) ... ok
+test_save_evidence_resource_search_and_summary (test_phase_final.FinalTests.test_save_evidence_resource_search_and_summary) ... 2026-09-11 22:56:59.744 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_settings_return_same_case_and_rule_source (test_phase_final.FinalTests.test_settings_return_same_case_and_rule_source) ... 2026-09-11 22:57:05.499 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_twenty_selection_summary_progress_and_counts (test_phase_final.FinalTests.test_twenty_selection_summary_progress_and_counts) ... 2026-09-11 22:57:11.912 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_v1_seal_unchanged (test_phase_final.FinalTests.test_v1_seal_unchanged) ... ok
+test_human_evidence_nested_technical_data_preserved (test_phase_final_ux.FinalUXTests.test_human_evidence_nested_technical_data_preserved) ... 2026-09-11 22:57:16.288 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_progress_feedback_order_and_duration (test_phase_final_ux.FinalUXTests.test_progress_feedback_order_and_duration) ... 2026-09-11 22:57:20.674 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_three_required_saved_and_summary_excludes_normal (test_phase_final_ux.FinalUXTests.test_three_required_saved_and_summary_excludes_normal) ... 2026-09-11 22:58:00.349 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+
+----------------------------------------------------------------------
+Ran 121 tests in 164.045s
+
+OK
+
+test_analysis_failure_retry (test_poc.InterfaceFlowTests.test_analysis_failure_retry) ... 2026-09-11 22:58:09.299 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-09-11 22:58:09.854 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_complete_workflow_and_revision (test_poc.InterfaceFlowTests.test_complete_workflow_and_revision) ... 2026-09-11 22:58:09.972 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_pending_filter_and_unreviewed_guard (test_poc.InterfaceFlowTests.test_pending_filter_and_unreviewed_guard) ... 2026-09-11 22:58:12.826 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_confirmation_guard_and_stale_draft (test_poc.ReviewLogicTests.test_confirmation_guard_and_stale_draft) ... ok
+test_evidence_and_fixed_rules (test_poc.ReviewLogicTests.test_evidence_and_fixed_rules) ... ok
+test_every_analysis_snapshot_and_retry (test_state_sync.StateInvariantTests.test_every_analysis_snapshot_and_retry) ... ok
+test_save_idempotent_notes_invalidate_and_sessions_independent (test_state_sync.StateInvariantTests.test_save_idempotent_notes_invalidate_and_sessions_independent) ... ok
+test_acceptance_cross_page_all_eight_and_stale (test_state_sync.StateSyncTests.test_acceptance_cross_page_all_eight_and_stale) ... 2026-09-11 22:58:13.524 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_analysis_render_and_reset (test_state_sync.StateSyncTests.test_analysis_render_and_reset) ... 2026-09-11 22:58:15.671 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_changes_are_committed_only_by_save (test_state_sync.StateSyncTests.test_changes_are_committed_only_by_save) ... 2026-09-11 22:58:16.110 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_release_export_navigation_and_full_reset (test_state_sync.StateSyncTests.test_release_export_navigation_and_full_reset) ... 2026-09-11 22:58:16.582 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 9.075s
+
+OK
+
+Phase 1 + Phase 2A + Phase 2B: 121; legacy: 11; total: 132

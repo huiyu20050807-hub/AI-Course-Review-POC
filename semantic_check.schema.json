@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 2C semantic_check — advisory only",
+  "type": "object",
+  "required": ["semantic_check_id", "check_name", "category", "input_fields", "source_evidence", "policy_context", "prompt_version", "model_name", "analysis", "status", "risk_level", "confidence", "suggested_attention", "limitations", "human_result", "human_note", "created_at"],
+  "properties": {
+    "semantic_check_id": {"enum": ["SEM-001", "SEM-002", "SEM-003", "SEM-004"]},
+    "check_name": {"type": "string"},
+    "category": {"const": "AI 語意輔助"},
+    "input_fields": {"type": "array", "items": {"type": "string"}},
+    "source_evidence": {"type": "object"},
+    "policy_context": {"type": "array", "maxItems": 2},
+    "prompt_version": {"type": "string"},
+    "model_name": {"type": "string"},
+    "provider": {"const": "mock"},
+    "analysis": {"type": "string"},
+    "status": {"enum": ["未發現明顯問題", "建議確認", "需要補充資訊", "AI 無法判斷"]},
+    "risk_level": {"type": "string"},
+    "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1, "description": "模型自評／系統參考，非準確率；mock 固定 null"},
+    "suggested_attention": {"type": "string"},
+    "limitations": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "human_result": {"enum": [null, "同意 AI 建議", "不同意 AI 建議", "要求補件", "保留待確認"]},
+    "human_note": {"type": "string"},
+    "created_at": {"type": "string"}
+  }
+}

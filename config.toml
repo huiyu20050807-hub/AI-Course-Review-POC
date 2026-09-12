@@ -1,0 +1,17 @@
+[theme]
+base = "light"
+primaryColor = "#163E68"
+backgroundColor = "#F4F6F9"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#172B42"
+font = "sans serif"
+
+[server]
+headless = true
+address = "127.0.0.1"
+port = 8502
+fileWatcherType = "none"
+runOnSave = false
+
+[browser]
+gatherUsageStats = false

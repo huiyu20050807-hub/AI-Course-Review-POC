@@ -1,0 +1,22 @@
+2026-09-12 06:31:01.818 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+.E2026-09-12 06:31:21.794 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+.2026-09-12 06:31:26.460 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+.2026-09-12 06:31:30.640 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+..2026-09-12 06:31:32.499 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+.2026-09-12 06:31:34.202 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+.2026-09-12 06:31:36.563 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+.
+======================================================================
+ERROR: test_resource_sources_pages_keywords_and_read_only (test_phase_final.FinalTests.test_resource_sources_pages_keywords_and_read_only)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\勞發署主管共識研習營\AI_Course_Review_POC_Workshop_2_0\test_phase_final.py", line 80, in test_resource_sources_pages_keywords_and_read_only
+    files=scan_pdfs(resources.DEFAULT);before={str(p):sha256(p.read_bytes()).hexdigest() for p in files}
+  File "D:\勞發署主管共識研習營\AI_Course_Review_POC_Workshop_2_0\policy_parser.py", line 26, in scan_pdfs
+    raise FileNotFoundError(f"找不到規定來源資料夾：{folder}")
+FileNotFoundError: 找不到規定來源資料夾：D:\勞發署主管共識研習營\AI_Course_Review_POC\補助資源查詢系統
+
+----------------------------------------------------------------------
+Ran 9 tests in 61.544s
+
+FAILED (errors=1)

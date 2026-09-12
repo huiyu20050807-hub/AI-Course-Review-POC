@@ -1,0 +1,59 @@
+test_20_core_values_against_independent_source_cells (test_phase1.ExcelAcceptanceTests.test_20_core_values_against_independent_source_cells) ... ok
+test_20_deterministic_results (test_phase1.ExcelAcceptanceTests.test_20_deterministic_results) ... ok
+test_20_workbooks_load_and_schema (test_phase1.ExcelAcceptanceTests.test_20_workbooks_load_and_schema) ... ok
+test_323_sessions_and_20_audited_totals (test_phase1.ExcelAcceptanceTests.test_323_sessions_and_20_audited_totals) ... ok
+test_a_b_a_state_isolation_and_rechecking (test_phase1.ExcelAcceptanceTests.test_a_b_a_state_isolation_and_rechecking) ... ok
+test_all_source_refs_trace_raw_values (test_phase1.ExcelAcceptanceTests.test_all_source_refs_trace_raw_values) ... ok
+test_bad_date_is_partial_and_core_check_cannot_pass (test_phase1.ExcelAcceptanceTests.test_bad_date_is_partial_and_core_check_cannot_pass) ... ok
+test_bad_number_reported_not_consistent (test_phase1.ExcelAcceptanceTests.test_bad_number_reported_not_consistent) ... ok
+test_blank_core_value_not_unknown_format (test_phase1.ExcelAcceptanceTests.test_blank_core_value_not_unknown_format) ... ok
+test_blank_hours_do_not_become_zero_or_consistent (test_phase1.ExcelAcceptanceTests.test_blank_hours_do_not_become_zero_or_consistent) ... ok
+test_blank_staff_and_assignments_are_not_fabricated (test_phase1.ExcelAcceptanceTests.test_blank_staff_and_assignments_are_not_fabricated) ... ok
+test_formula_is_not_treated_as_cached_success (test_phase1.ExcelAcceptanceTests.test_formula_is_not_treated_as_cached_success) ... ok
+test_mismatch_and_zero_are_distinct_from_missing (test_phase1.ExcelAcceptanceTests.test_mismatch_and_zero_are_distinct_from_missing) ... ok
+test_missing_budget_inputs_and_money_mismatches (test_phase1.ExcelAcceptanceTests.test_missing_budget_inputs_and_money_mismatches) ... ok
+test_presence_requires_manual_judgment_when_provided (test_phase1.ExcelAcceptanceTests.test_presence_requires_manual_judgment_when_provided) ... ok
+test_scan_ignores_excel_lockfiles (test_phase1.ExcelAcceptanceTests.test_scan_ignores_excel_lockfiles) ... ok
+test_shifted_sections_not_fixed_rows (test_phase1.ExcelAcceptanceTests.test_shifted_sections_not_fixed_rows) ... ok
+test_skill_variant_column_and_evidence (test_phase1.ExcelAcceptanceTests.test_skill_variant_column_and_evidence) ... ok
+test_source_revision_does_not_inherit_confirmation (test_phase1.ExcelAcceptanceTests.test_source_revision_does_not_inherit_confirmation) ... ok
+test_unknown_format_and_corruption_cannot_load (test_phase1.ExcelAcceptanceTests.test_unknown_format_and_corruption_cannot_load) ... ok
+test_unsaved_is_not_reviewed (test_phase1.ExcelAcceptanceTests.test_unsaved_is_not_reviewed) ... ok
+test_original_and_copied_excels_unchanged (test_phase1.SealTests.test_original_and_copied_excels_unchanged) ... ok
+test_original_v1_and_legacy_copy_seals_unchanged (test_phase1.SealTests.test_original_v1_and_legacy_copy_seals_unchanged) ... ok
+test_failed_file_ui_has_no_load_button (test_phase1.UIAcceptanceTests.test_failed_file_ui_has_no_load_button) ... 2026-09-11 18:29:53.179 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_real_selection_preview_load_checks_and_a_b_a (test_phase1.UIAcceptanceTests.test_real_selection_preview_load_checks_and_a_b_a) ... 2026-09-11 18:29:53.769 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 61.620s
+
+OK
+
+test_analysis_failure_retry (test_poc.InterfaceFlowTests.test_analysis_failure_retry) ... 2026-09-11 18:30:12.851 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-09-11 18:30:13.475 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_complete_workflow_and_revision (test_poc.InterfaceFlowTests.test_complete_workflow_and_revision) ... 2026-09-11 18:30:13.594 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_pending_filter_and_unreviewed_guard (test_poc.InterfaceFlowTests.test_pending_filter_and_unreviewed_guard) ... 2026-09-11 18:30:17.996 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_confirmation_guard_and_stale_draft (test_poc.ReviewLogicTests.test_confirmation_guard_and_stale_draft) ... ok
+test_evidence_and_fixed_rules (test_poc.ReviewLogicTests.test_evidence_and_fixed_rules) ... ok
+test_every_analysis_snapshot_and_retry (test_state_sync.StateInvariantTests.test_every_analysis_snapshot_and_retry) ... ok
+test_save_idempotent_notes_invalidate_and_sessions_independent (test_state_sync.StateInvariantTests.test_save_idempotent_notes_invalidate_and_sessions_independent) ... ok
+test_acceptance_cross_page_all_eight_and_stale (test_state_sync.StateSyncTests.test_acceptance_cross_page_all_eight_and_stale) ... 2026-09-11 18:30:19.084 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_analysis_render_and_reset (test_state_sync.StateSyncTests.test_analysis_render_and_reset) ... 2026-09-11 18:30:22.065 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_changes_are_committed_only_by_save (test_state_sync.StateSyncTests.test_changes_are_committed_only_by_save) ... 2026-09-11 18:30:22.729 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+test_release_export_navigation_and_full_reset (test_state_sync.StateSyncTests.test_release_export_navigation_and_full_reset) ... 2026-09-11 18:30:23.603 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 13.326s
+
+OK
+
+Phase 1: 25; legacy: 11; total: 36
